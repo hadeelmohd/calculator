@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+   calculator:
+     container_name: calculator_c
+     image: calculator-i
+     build: 
+       context: .
+     ports:
+       - '3000:3000'
+
+
